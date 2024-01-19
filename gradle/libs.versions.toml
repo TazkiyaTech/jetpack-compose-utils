@@ -6,6 +6,11 @@ compose-bom = { group = "androidx.compose", name = "compose-bom", version = "202
 compose-material3 = { module = "androidx.compose.material3:material3" } # gets the version from the Compose BoM
 compose-ui-graphics = { module = "androidx.compose.ui:ui-graphics" } # gets the version from the Compose BoM
 compose-ui-ui = { module = "androidx.compose.ui:ui" } # gets the version from the Compose BoM
-compose-ui-testManifest = { module = "androidx.compose.ui:ui-test-manifest" } # gets the version from the Compose BoM
+compose-ui-testmanifest = { module = "androidx.compose.ui:ui-test-manifest" } # gets the version from the Compose BoM
 compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling" } # gets the version from the Compose BoM
-compose-ui-toolingPreview = { module = "androidx.compose.ui:ui-tooling-preview" } # gets the version from the Compose BoM
+compose-ui-toolingpreview = { module = "androidx.compose.ui:ui-tooling-preview" } # gets the version from the Compose BoM
+
+[plugins]
+android-library = { id = "com.android.library", version = "8.2.1" }
+benmanes-versions = { id = "com.github.ben-manes.versions", version = "0.50.0" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version = "1.9.22" }

@@ -1,9 +1,9 @@
 import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
 
 plugins {
-    id("com.android.library") version "8.2.1" apply false
-    id("com.github.ben-manes.versions") version "0.50.0"
-    id("org.jetbrains.kotlin.android") version "1.9.22" apply false
+    alias(libs.plugins.android.library) apply false
+    alias(libs.plugins.benmanes.versions)
+    alias(libs.plugins.jetbrains.kotlin.android) apply false
 }
 
 tasks.wrapper {
