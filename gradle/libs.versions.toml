@@ -2,7 +2,7 @@
 compose-compiler = "1.5.8"
 
 [libraries]
-compose-bom = { group = "androidx.compose", name = "compose-bom", version = "2023.10.01" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version = "2024.01.00" }
 compose-material3 = { module = "androidx.compose.material3:material3" } # gets the version from the Compose BoM
 compose-ui-graphics = { module = "androidx.compose.ui:ui-graphics" } # gets the version from the Compose BoM
 compose-ui-ui = { module = "androidx.compose.ui:ui" } # gets the version from the Compose BoM
@@ -12,5 +12,5 @@ compose-ui-toolingpreview = { module = "androidx.compose.ui:ui-tooling-preview" 
 
 [plugins]
 android-library = { id = "com.android.library", version = "8.2.1" }
-benmanes-versions = { id = "com.github.ben-manes.versions", version = "0.50.0" }
+benmanes-versions = { id = "com.github.ben-manes.versions", version = "0.51.0" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version = "1.9.22" }
