@@ -18,7 +18,7 @@ repositories {
     mavenCentral()
 }
 dependencies {
-    implementation 'com.tazkiyatech:jetpack-compose-utils:0.1.0'
+    implementation("com.tazkiyatech:jetpack-compose-utils:0.1.0")
 }
 ```
 
